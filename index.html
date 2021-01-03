@@ -18,8 +18,6 @@
 </head>
 
 <body>
-    <h1>Philipps Podcast</h1>
-
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -33,48 +31,98 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
 
-    <div class="card-deck">
-        <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-            <div class="card-header">Ach?</div>
-            <img class="card-img-top" src="img/ach.jpg" alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Zusammen mit Jürgen und Dominik erfahren wir die B-Seiten der Geschichte.
-                    Unterhaltung
-                    pur.</p>
-                <a href="https://das-a.ch" class="btn btn-primary">Zum Podcast</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm"">
+        <a class=" navbar-brand my-0 mr-md-auto font-weight-normal" href=" #">Philipps Podcasts</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#Podcasts">Podcasts</a>
+                <a class="nav-item nav-link" href="#Gastauftritte">Gastauftritte</a>
+                <a class="nav-item nav-link" href="#Impressum">Impressum</a>
             </div>
         </div>
+    </nav>
 
-        <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-            <div class="card-header">Redhuhn</div>
-            <img class="card-img-top" src="img/redhuhn.png" alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Geflügelte Worte und Redewendungen. Kurz und knapp</p>
-                <a href="https://redhuhn.einlzweip.de" class="btn btn-primary">Zum Podcast</a>
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4" id="Podcasts">Philipps Podcast</h1>
+            <p class="lead text-muted">Hier mein Podcasts, die ich mit anderen oder komplett in Eigenregie produziere.
+        </div>
+    </section>
+
+
+    <div class="container">
+        <div class="card-deck text-center mx-auto">
+            <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Ach?</div>
+                <img class="card-img-top" src="img/ach.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Zusammen mit Jürgen und Dominik erfahren wir die B-Seiten der Geschichte.
+                        Unterhaltung
+                        pur.</p>
+                    <a href="https://das-a.ch" class="btn btn-primary">Zum Podcast</a>
+                </div>
+            </div>
+
+            <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Redhuhn</div>
+                <img class="card-img-top" src="img/redhuhn.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Geflügelte Worte und Redewendungen. Kurz und knapp</p>
+                    <a href="https://redhuhn.einlzweip.de" class="btn btn-primary">Zum Podcast</a>
+                </div>
+            </div>
+
+            <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Halbgar</div>
+                <img class="card-img-top" src="img/halbgar.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Ist es gar - oder gar-nichts? Die experimentelle Bühne für Podcast-Ideen</p>
+                    <a href="https://halbgar.einlzweip.de" class="btn btn-primary">Zum Podcast</a>
+                </div>
             </div>
         </div>
-
-        <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-            <div class="card-header">Halbgar</div>
-            <img class="card-img-top" src="img/halbgar.png" alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Ist es gar - oder gar-nichts? Die experimentelle Bühne für Podcast-Ideen</p>
-                <a href="https://halbgar.einlzweip.de" class="btn btn-primary">Zum Podcast</a>
-            </div>
-        </div>
-
-
-        <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-            <div class="card-header">Gastauftritte</div>
-            <img class="card-img-top" src="https://img-1.fyyd.de/curation/layout/5999.jpg" alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Kuration aller Gastauftritte in anderen Podcasts</p>
-                <a href="https://fyyd.de/user/philipp/curation/a557373de59046469459ba00931a559b"
-                    class="btn btn-primary">Zur Kuration</a>
-            </div>
-        </div>
-
     </div>
+
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4" id="Gastauftritte">Gastauftritte</h1>
+            <p class="lead text-muted">Podcasts, in denen ich zu Gast war - live oder in Einspielern
+        </div>
+    </section>
+    <!-- </div> -->
+    <div class="container text-center">
+        <div class="card-deck text-center">
+            <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Gastauftritte</div>
+                <img class="card-img-top" src="https://img-1.fyyd.de/curation/layout/5999.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Kuration aller Gastauftritte in anderen Podcasts auf fyyd</p>
+                    <a href="https://fyyd.de/user/philipp/curation/a557373de59046469459ba00931a559b"
+                        class="btn btn-primary">Zur Kuration</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4" id="Impressum">Impressum</h1>
+            <p class="lead text-muted">Kontakt zu Philipp
+        </div>
+    </section>
+    <div class="container text-center">
+        <address>
+            <strong>Philipp Weißmann</strong><br>
+            Humboldt-Str. 144<br>
+            90459 Nürnberg<br>
+        </address>
+    </div>
+
 
 </body>
 
